@@ -1,0 +1,25 @@
+.FormBusca{
+ 
+    .InputGeneric
+    {
+        border: 1px solid black;
+        background-color: white;
+        padding: 0px 5px 0px 5px;
+        height: 32px;
+
+        .InputCEP{
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            border: 0px;
+            
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .InputButton {
+        margin-top: 12px;
+        text-align: center;
+    }
+}
